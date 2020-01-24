@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb563d71-3021-47e3-bf14-490e04a6f122" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Enums/DbContextScopeOption.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientDbContextLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextReadOnlyScope.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScopeFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IAmbientDbContextLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextReadOnlyScope.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScope.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScopeFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbContextScope.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DbContextScope.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IAmbientDbContextLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Implementations/DbContextCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Implementations/AmbientContextSuppressor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Interfaces/IDbContextCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScopeFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Interfaces/IAmbientDbContextLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Interfaces/IDbContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.nuget/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoApplication/DatabaseContext/UserFluentMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C83C0E82-2F21-48FC-A29F-AB1AE23A0655/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoApplication/BusinessLogicServices/UserEmailService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoApplication/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoApplication/DatabaseContext/UserManagementDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B995C374-0C39-4BF0-A778-B10B60BCCAF5/3/CommittableTransaction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B995C374-0C39-4BF0-A778-B10B60BCCAF5/E/Transaction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Implementations/AmbientDbContextLocator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Class1.cs" />
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextFactory.cs" />
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextCollection.cs" />
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" />
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" />
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WpZgasWkDj0eYtbb0ZE5DlCuCt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo Application" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DemoApplication/Demo Application.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb563d71-3021-47e3-bf14-490e04a6f122" name="Default Changelist" comment="" />
+      <created>1579848608469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579848608469</updated>
+      <workItem from="1579848610034" duration="6326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="253" key="Rider.ProjectTemplateDialog.Size" timestamp="1579848693191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1579848693191" />
+    <state x="640" y="276" key="WebReferenceSession.Dialog" timestamp="1579854007615">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="276" key="WebReferenceSession.Dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579854007615" />
+    <state x="624" y="252" width="671" height="536" key="find.popup" timestamp="1579850563515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="252" width="671" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579850563515" />
+  </component>
+</project>

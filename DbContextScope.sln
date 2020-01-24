@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B9148E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mehdime.Entity", "Mehdime.Entity\Mehdime.Entity.csproj", "{4830BAFD-4163-473E-B00F-65F274AC165F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agidens.DbContextScope", "Agidens.DbContextScope\Agidens.DbContextScope.csproj", "{3A763DC9-45D4-4EF8-9F78-85E94E37BE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{4830BAFD-4163-473E-B00F-65F274AC165F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4830BAFD-4163-473E-B00F-65F274AC165F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4830BAFD-4163-473E-B00F-65F274AC165F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A763DC9-45D4-4EF8-9F78-85E94E37BE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A763DC9-45D4-4EF8-9F78-85E94E37BE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A763DC9-45D4-4EF8-9F78-85E94E37BE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A763DC9-45D4-4EF8-9F78-85E94E37BE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

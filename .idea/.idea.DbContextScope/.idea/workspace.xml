@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb563d71-3021-47e3-bf14-490e04a6f122" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Enums/DbContextScopeOption.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientDbContextLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextReadOnlyScope.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScopeFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IAmbientDbContextLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextReadOnlyScope.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScope.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScopeFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DbContextScope.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DbContextScope.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DbContextScope/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DbContextScope/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DbContextScope/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DbContextScope/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Agidens.DbContextScope/Agidens.DbContextScope.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Agidens.DbContextScope.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +29,20 @@
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Implementations/AmbientContextSuppressor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Interfaces/IDbContextCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextReadOnlyScope.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScopeFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Interfaces/IAmbientDbContextLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Interfaces/IDbContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientDbContextLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.nuget/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DemoApplication/DatabaseContext/UserFluentMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C83C0E82-2F21-48FC-A29F-AB1AE23A0655/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DemoApplication/BusinessLogicServices/UserEmailService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoApplication/BusinessLogicServices/UserCreditScoreService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DemoApplication/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DemoApplication/DatabaseContext/UserManagementDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B995C374-0C39-4BF0-A778-B10B60BCCAF5/3/CommittableTransaction.cs" root0="SKIP_HIGHLIGHTING" />
@@ -56,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/DemoApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScope.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Mehdime.Entity/Implementations/AmbientDbContextLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextScopeFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,9 +58,10 @@
         <option value="$PROJECT_DIR$/Agidens.DbContextScope/Class1.cs" />
         <option value="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextFactory.cs" />
         <option value="$PROJECT_DIR$/Agidens.DbContextScope/Interfaces/IDbContextCollection.cs" />
+        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" />
+        <option value="$PROJECT_DIR$/Mehdime.Entity/Implementations/DbContextCollection.cs" />
         <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextCollection.cs" />
         <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/DbContextScope.cs" />
-        <option value="$PROJECT_DIR$/Agidens.DbContextScope/Implementations/AmbientContextSuppressor.cs" />
       </list>
     </option>
   </component>
@@ -127,25 +123,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579848608469</updated>
-      <workItem from="1579848610034" duration="6326000" />
+      <workItem from="1579848610034" duration="7396000" />
+      <workItem from="1580279960951" duration="4272000" />
     </task>
+    <task id="LOCAL-00001" summary="More or less working">
+      <created>1579858326197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579858326197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More or less working" />
+    <option name="LAST_COMMIT_MESSAGE" value="More or less working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="253" key="Rider.ProjectTemplateDialog.Size" timestamp="1579848693191">

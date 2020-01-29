@@ -171,7 +171,7 @@ namespace Agidens.DbContextScope.Implementations
                     // First, we need to find what the EntityKey for this entity is. 
                     // We need this EntityKey in order to check if this entity has
                     // already been loaded in the parent DbContext's first-level cache (the ObjectStateManager).
-                    var stateInCurrentScope = contextInCurrentScope.ChangeTracker.Entries().First(e => e.Entity == toRefresh);
+                    var stateInCurrentScope = contextInCurrentScope.ChangeTracker.Entries().FirstOrDefault(e => e.Entity == toRefresh);
                     if (stateInCurrentScope != null)
                     {
                         var key = stateInCurrentScope.Metadata.FindPrimaryKey().Properties.Single();

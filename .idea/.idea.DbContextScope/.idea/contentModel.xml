@@ -101,6 +101,7 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\sylvain.girard\.Rider2019.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\sylvain.girard\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\sylvain.girard\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DbContextScope.-1108075289.00" t="ExcludeRecursive" />
   </component>

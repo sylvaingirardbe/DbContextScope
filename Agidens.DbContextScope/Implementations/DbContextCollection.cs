@@ -8,13 +8,13 @@
 
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Runtime.ExceptionServices;
 using System.Threading;
 using System.Threading.Tasks;
 using Agidens.DbContextScope.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using IsolationLevel = System.Data.IsolationLevel;
 
 namespace Agidens.DbContextScope.Implementations
 {
@@ -33,16 +33,20 @@ namespace Agidens.DbContextScope.Implementations
     public class DbContextCollection : IDbContextCollection
     {
         private Dictionary<Type, DbContext> _initializedDbContexts;
-        private Dictionary<DbContext, IDbContextTransaction> _transactions; 
+        private Dictionary<DbContext, IDbContextTransaction> _transactions;
         private IsolationLevel? _isolationLevel;
         private readonly IDbContextFactory _dbContextFactory;
         private bool _disposed;
         private bool _completed;
         private bool _readOnly;
 
-        internal Dictionary<Type, DbContext> InitializedDbContexts { get { return _initializedDbContexts; } }
+        internal Dictionary<Type, DbContext> InitializedDbContexts
+        {
+            get { return _initializedDbContexts; }
+        }
 
-        public DbContextCollection(bool readOnly = false, IsolationLevel? isolationLevel = null, IDbContextFactory dbContextFactory = null)
+        public DbContextCollection(bool readOnly = false, IsolationLevel? isolationLevel = null,
+            IDbContextFactory dbContextFactory = null)
         {
             _disposed = false;
             _completed = false;
@@ -84,7 +88,7 @@ namespace Agidens.DbContextScope.Implementations
                 }
             }
 
-            return _initializedDbContexts[requestedType]  as TDbContext;
+            return _initializedDbContexts[requestedType] as TDbContext;
         }
 
         public int Commit()
@@ -92,7 +96,8 @@ namespace Agidens.DbContextScope.Implementations
             if (_disposed)
                 throw new ObjectDisposedException("DbContextCollection");
             if (_completed)
-                throw new InvalidOperationException("You can't call Commit() or Rollback() more than once on a DbContextCollection. All the changes in the DbContext instances managed by this collection have already been saved or rollback and all database transactions have been completed and closed. If you wish to make more data changes, create a new DbContextCollection and make your changes there.");
+                throw new InvalidOperationException(
+                    "You can't call Commit() or Rollback() more than once on a DbContextCollection. All the changes in the DbContext instances managed by this collection have already been saved or rollback and all database transactions have been completed and closed. If you wish to make more data changes, create a new DbContextCollection and make your changes there.");
 
             // Best effort. You'll note that we're not actually implementing an atomic commit 
             // here. It entirely possible that one DbContext instance will be committed successfully
@@ -158,7 +163,8 @@ namespace Agidens.DbContextScope.Implementations
             if (_disposed)
                 throw new ObjectDisposedException("DbContextCollection");
             if (_completed)
-                throw new InvalidOperationException("You can't call Commit() or Rollback() more than once on a DbContextCollection. All the changes in the DbContext instances managed by this collection have already been saved or rollback and all database transactions have been completed and closed. If you wish to make more data changes, create a new DbContextCollection and make your changes there.");
+                throw new InvalidOperationException(
+                    "You can't call Commit() or Rollback() more than once on a DbContextCollection. All the changes in the DbContext instances managed by this collection have already been saved or rollback and all database transactions have been completed and closed. If you wish to make more data changes, create a new DbContextCollection and make your changes there.");
 
             // See comments in the sync version of this method for more details.
 
@@ -203,7 +209,8 @@ namespace Agidens.DbContextScope.Implementations
             if (_disposed)
                 throw new ObjectDisposedException("DbContextCollection");
             if (_completed)
-                throw new InvalidOperationException("You can't call Commit() or Rollback() more than once on a DbContextCollection. All the changes in the DbContext instances managed by this collection have already been saved or rollback and all database transactions have been completed and closed. If you wish to make more data changes, create a new DbContextCollection and make your changes there.");
+                throw new InvalidOperationException(
+                    "You can't call Commit() or Rollback() more than once on a DbContextCollection. All the changes in the DbContext instances managed by this collection have already been saved or rollback and all database transactions have been completed and closed. If you wish to make more data changes, create a new DbContextCollection and make your changes there.");
 
             ExceptionDispatchInfo lastError = null;
 
@@ -281,8 +288,7 @@ namespace Agidens.DbContextScope.Implementations
         /// </summary>
         private static TValue GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue> dictionary, TKey key)
         {
-            TValue value;
-            return dictionary.TryGetValue(key, out value) ? value : default(TValue);
+            return dictionary.TryGetValue(key, out TValue value) ? value : default(TValue);
         }
     }
 }
